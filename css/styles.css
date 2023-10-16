@@ -1,0 +1,71 @@
+@import "https://fonts.googleapis.com/css?family=Arvo";
+
+body {
+  background-color: #035074;
+  color: #FFFFFF;
+  font-family: arial,verdana,sans-serif;
+  font-size: 1rem;
+  padding: 10px; 
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.heading {
+  font-size:3rem;
+  font-weight:bold;
+  font-family: "Arvo", sans-serif;
+  opacity:0.5;
+  padding-bottom:3px;
+}
+
+.sub-heading {
+  font-size:1rem;
+  letter-spacing:3px;
+}
+
+select {
+  font-family:arial,verdana,sans-serif;
+  font-size:1rem;
+  color:#035074;
+  border:2px solid #FFFFFF;
+  padding:2px 5px 2px 5px;
+  height:32px;
+  width:200px;
+  border-radius: 5px;
+}
+
+select:focus {
+  outline:none;
+}
+
+.content-title {
+  padding-bottom:10px;
+  font-size:1.5rem;
+}
+
+.content-description {
+  padding-bottom:20px;
+  max-width:500px;
+}
+
+.content-icons {
+  padding-top:20px;
+}
+
+.content-icons img {
+  border-radius: 5px;
+  margin-right: 5px;
+  width: 50px
+}
+
+.content-icons img:nth-of-type(1) {
+  border-radius: 10px;
+  width: 100px;
+}
